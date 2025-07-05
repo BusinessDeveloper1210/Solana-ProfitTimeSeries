@@ -4,7 +4,7 @@ import * as fs from 'fs';
 import * as dotenv from 'dotenv';
 dotenv.config();
 
-const TOKEN_ADDRESS = '3bgvTBLGuJLVQSENZm4pzFooW1JK1C7eCqZNHB8ipump';
+const TOKEN_ADDRESS = '7d7XLoRfXkP4eEbVicq2KPQjtQzNZh6gzZ3ee2QWNvX8';
 // HELIUS_API_KEY=50fb6d78-d59a-4bda-a9e1-14a972862a9d
 const DEXSCREENER_API_URL = `https://api.dexscreener.com/latest/dex/tokens/${TOKEN_ADDRESS}`;
 const SOLSCAN_API_BASE_URL = `https://api.solscan.io/token`;

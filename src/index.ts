@@ -10,7 +10,7 @@ async function getTokenHolders(mintAddress: string) {
   const mintPubkey = new PublicKey(mintAddress);
 
   const accounts = await connection.getProgramAccounts(
-    new PublicKey("TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"), // SPL Token program
+    new PublicKey(""), // SPL Token program
     {
       filters: [
         {
